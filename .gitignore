@@ -1,0 +1,13 @@
+# Configuración de Obsidian (no versionar)
+.obsidian/
+.obsidian/plugins/
+.obsidian/themes/
+*.obsidian.md
+
+# Archivos temporales
+*.bak
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
