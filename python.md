@@ -243,5 +243,9 @@ with open('salida.txt', 'a') as f:
     
 - Usar `with` es recomendable para evitar errores de cierre de archivo
 
+## ❗Importante
+- [[errores y excepciones en python]]
+- [[poo python]]
+
     
     
