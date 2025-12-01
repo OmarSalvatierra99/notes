@@ -1,0 +1,3 @@
+- Don't read the dictionary
+	- Instead you understand what exits and what you can use, but you can always Google things 
+	- We're going to learn a language by actually using it, focusing on the thing that actually matter 

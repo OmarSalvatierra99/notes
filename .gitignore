@@ -1,13 +1,40 @@
-# Configuración de Obsidian (no versionar)
-.obsidian/
+# Obsidian system folders
+.obsidian/workspace.json
+.obsidian/appearance.json
+.obsidian/app.json
 .obsidian/plugins/
-.obsidian/themes/
-*.obsidian.md
+.obsidian/snippets/
 
-# Archivos temporales
-*.bak
-*.tmp
-*.swp
-*.swo
+# OS files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+*.bak
+*.swp
+
+# Backups and sync artifacts
+.obsidian-backup/
+.obsidian-sync/
+.obsidian-android/
+.obsidian-vault-backup/
+.obsidian-local/
+.sync-conflict-*/
+
+# Logs or cache
+.cache/
+logs/
+*.log
+
+# Mobile caches
+.obsidian-mobile/
+.obsidian.mobilesync/
+
+# Python/JS helper files (if using scripts)
+__pycache__/
+node_modules/
+*.pyc
