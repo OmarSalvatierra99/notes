@@ -1,0 +1,46 @@
+# Obsidian system files
+.obsidian/cache/
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/appearance.json
+.obsidian/graph.json
+.obsidian/core-plugins.json
+
+# Ignore plugin data folders that change constantly
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/cache/
+.obsidian/plugins/*/temp/
+
+# Claude AI folder (if it stores internal metadata)
+.claude/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Python and script artifacts
+__pycache__/
+*.pyc
+scripts/__pycache__/
+
+# Media exports or temp files
+media/tmp/
+media/export/
+
+# PDF generated caches
+pdf/*.tmp
+
+# Anki auto-generated files (optional)
+anki/collection.media/
+anki/backups/
+
+# Logs
+*.log
+
+# Backup folders
+*/backup/
+*/backups/
+
+# Sensitive personal notes (optional — remove if you want tracked)
+diary/

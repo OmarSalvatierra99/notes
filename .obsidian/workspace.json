@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anki/Ejemplo.md",
+                "file": "diary/2025-12-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ejemplo"
+              "title": "2025-12-09"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "anki/Ejemplo.md",
+                "file": "diary/2025-12-09.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ejemplo"
+              "title": "Outline of 2025-12-09"
             }
           },
           {
@@ -205,10 +205,10 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "c2ab81d76bd72e46",
+  "active": "93207473aabf258a",
   "lastOpenFiles": [
-    "diary/2025-12-09.md",
     "anki/Ejemplo.md",
+    "diary/2025-12-09.md",
     "CLAUDE.md",
     "scripts/anki.md",
     "media/Pasted image 20251209121721.png",
