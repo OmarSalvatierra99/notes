@@ -1,1 +1,0 @@
-We are going to talk about something. Please use clear words because I'm a native Spanish speaker, but I want to learn to communicate in English. So please correct all my sentences, including this one. 

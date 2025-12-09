@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "353e045eefebfc04",
+    "type": "split",
+    "children": [
+      {
+        "id": "f284a3a6fb877859",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2ab81d76bd72e46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "anki/Ejemplo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ejemplo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cc96faa2ba4f5da4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3aa2e0a57152208",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93207473aabf258a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "385f9ed1cbe71b57",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7f5f532870e76b44",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "15e0fbaaa19b883f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d19a538a1a6cc3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91ef2e16df9fb1e4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2025-11-18.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-11-18"
+            }
+          },
+          {
+            "id": "d375989b8c638bfd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2025-11-18.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-11-18"
+            }
+          },
+          {
+            "id": "d926165dfc867ef7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b5d4734caccfce1a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3fed0c8cf4da0f10",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "anki/Ejemplo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Ejemplo"
+            }
+          },
+          {
+            "id": "72212b0fbc96c87d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "anki-sync-plus:Add/Update cards for all notes of selected folder on Anki": false,
+      "anki-sync-plus:Add/Update card for current note on Anki": false,
+      "anki-sync-plus:Delete card for  current note on Anki": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false
+    }
+  },
+  "active": "c2ab81d76bd72e46",
+  "lastOpenFiles": [
+    "diary/2025-12-09.md",
+    "anki/Ejemplo.md",
+    "CLAUDE.md",
+    "scripts/anki.md",
+    "media/Pasted image 20251209121721.png",
+    "media/Pasted image 20251209125006.png",
+    "anki/Sample Card.md",
+    "anki/Python Basics.md",
+    "CLAUDE.md.tmp.6360.1765306638881",
+    "anki/Example with Image.md",
+    "Pasted.md",
+    "templates/anki-template.md",
+    "scripts/organized-vault.md",
+    "templates/anki.md",
+    "brain/Command pallet in obsidian.md",
+    "anki/Linux is.md",
+    "media 1",
+    "anki_export.txt",
+    "scripts/anki.py",
+    "Command pallet in obsidian.md",
+    "templates",
+    "Untitled.md",
+    "pdf/AdministraciónPública_Calidad pública visión estratégica.pdf",
+    "diary",
+    "pdf/AdministraciónPública_Gobernanza una teoría administrariva participativa.pdf",
+    "auditoria-gubernamental",
+    "brain",
+    "MIGRATION_CHECKLIST.md",
+    "SYSTEM_DIAGRAM.md",
+    "scripts/QUICK_REFERENCE.md",
+    "RESTRUCTURE_SUMMARY.md",
+    "Mathew 27-46.md",
+    "copilot/copilot-conversations/Give_me_a_quick_recap_of_activeNote_in_two_sentences.@20251209_102542.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-conversations/Can_you_understand_my_notes@20251208_145903.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "media/Pasted image 20251119171024.png"
+  ]
+}

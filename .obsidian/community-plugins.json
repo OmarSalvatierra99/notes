@@ -1,7 +1,9 @@
 [
-  "code-emitter",
   "obsidian-excalidraw-plugin",
   "oz-clear-unused-images",
   "obsidian-git",
-  "background-image"
+  "background-image",
+  "pdf-plus",
+  "templater-obsidian",
+  "obsidian-shellcommands"
 ]
