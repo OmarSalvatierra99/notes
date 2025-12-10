@@ -186,12 +186,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,13 +210,15 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "c2ab81d76bd72e46",
+  "active": "72212b0fbc96c87d",
   "lastOpenFiles": [
+    "Untitled.base",
+    "CLAUDE.md",
+    "Untitled.canvas",
     "Budget.md",
     "brain/Improving Note Logic and Organization for government auditing pdf.md",
     "scripts/budget-calculator.py",
     "Dashboard.md",
-    "CLAUDE.md",
     "scripts/README.md",
     "templates/workflow-guide.md",
     "templates/anki-template.md",
@@ -247,7 +248,6 @@
     "REFACTORING-SUMMARY.md.tmp.7224.1765388006895",
     "templates/unified-project-template.md",
     "templates/unified-idea-template.md",
-    "scripts/migrate-notes.py",
     "media/Pasted image 20251209141653.png",
     "media/Pasted image 20251209121721.png",
     "media/Pasted image 20251209125006.png",
