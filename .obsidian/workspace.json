@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "brain/Improving Note Logic and Organization for government auditing pdf.md",
-                "mode": "source",
+                "file": "brain/Command pallet in obsidian.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Improving Note Logic and Organization for government auditing pdf"
+              "title": "Command pallet in obsidian"
             }
           }
         ]
@@ -213,15 +213,22 @@
   },
   "active": "c2ab81d76bd72e46",
   "lastOpenFiles": [
+    "developer/Chaniging the App Port Flask - FastAPI.md",
+    "How to see only services that contain ports.md",
+    "Budget.md",
+    "developer/Scan ever app.py.md",
+    "Chaniging the App Port Flask - FastAPI.md",
+    "scripts/logs/organization_20251210_105354.log",
+    "scripts/README.md",
+    "developer/INE Studio.md",
+    "diary/2025-12-10.md",
+    "brain/Improving Note Logic and Organization for government auditing pdf.md",
     "brain/Empathy and understanding how we connect whit another person's feelings.md",
     "brain/Command pallet in obsidian.md",
     "developer/CLAUDE.md",
-    "scripts/README.md",
     "art/Skull of a skeleton with burning cigarette.md",
-    "brain/Improving Note Logic and Organization for government auditing pdf.md",
     "projects",
     "scripts/logs/organization_20251210_101329.log",
-    "diary/2025-12-10.md",
     "scripts/logs/organization_20251210_100804.log",
     "scripts/logs/organization_20251210_100728.log",
     "scripts/logs/organization_20251210_100705.log",
@@ -229,7 +236,6 @@
     "diary/2025-12-09.md",
     "Skull of a skeleton with burning cigarette.md",
     "Improving Note Logic and Organization for government auditing pdf.md",
-    "Budget.md",
     "Empathy and understanding how we connect whit another person's feelings.md",
     "media/Pasted image 20251209141653.png",
     "deleted.md",
@@ -244,14 +250,8 @@
     "CLAUDE.md.tmp.6360.1765306638881",
     "anki/Example with Image.md",
     "Pasted.md",
-    "templates/anki-template.md",
-    "templates/anki.md",
-    "anki/Linux is.md",
     "media 1",
     "anki_export.txt",
-    "scripts/anki.py",
-    "Command pallet in obsidian.md",
-    "MIGRATION_CHECKLIST.md",
     "media/Pasted image 20251119171024.png"
   ]
 }
