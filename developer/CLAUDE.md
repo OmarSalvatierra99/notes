@@ -25,15 +25,25 @@ The vault uses a tag-based organization system with dedicated folders:
 
 ### Running the Scripts
 
-Both scripts require updating the `VAULT_PATH` constant to match your local path before execution:
+The scripts automatically detect the vault path from their location (`Path(__file__).parent.parent`), so no configuration is needed.
 
-```python
-VAULT_PATH = r"C:\Users\Usuario\Documents\Personal\notas"
+**organized-vault.py** - Run with command-line arguments:
+```bash
+# Non-interactive mode (default) - runs immediately with logging
+python scripts/organized-vault.py
+
+# Dry run mode - preview changes without moving files
+python scripts/organized-vault.py --dry-run
+
+# Silent mode - only log to file, no console output (for Shell Commands plugin)
+python scripts/organized-vault.py --silent
+
+# Interactive mode (legacy) - prompts for confirmation
+python scripts/organized-vault.py --interactive
 ```
 
-Run scripts using:
+**anki.py** - Run with:
 ```bash
-python scripts/organized-vault.py
 python scripts/anki.py
 ```
 
@@ -51,11 +61,14 @@ Automatically organizes vault files based on file type and tags.
 - Files with `#anki` → `anki/`
 
 **Important behaviors:**
-- Only the first matching tag moves the file
-- Hidden folders and `.obsidian/` are skipped
-- Duplicate filenames are auto-renamed with counters
-- Supports both inline tags (`#tag`) and YAML frontmatter tags
-- Interactive mode with dry-run option and debug mode
+- **Tag priority**: Only the first matching tag moves the file (order: #developer, #art, #ideas, #auditoria, #anki)
+- Hidden folders (`.obsidian/`, `.git/`, `.trash/`) and `scripts/`, `templates/` folders are automatically skipped
+- Duplicate filenames are auto-renamed with numeric suffixes (e.g., `file_1.md`, `file_2.md`)
+- Supports both inline tags (`#tag`) and YAML frontmatter tags (converted to hashtag format)
+- Non-interactive by default (perfect for Shell Commands plugin automation)
+- All operations logged to `scripts/logs/organization_TIMESTAMP.log` with DEBUG level details
+- Files already in organized folders are not moved again
+- Exit code 0 on success, 1 on errors (for automation scripting)
 
 ### anki.py
 
@@ -131,16 +144,40 @@ The script will:
 - File explorer, global search, tag pane
 
 ### Community Plugins
-- **obsidian-git** - Git version control integration
+- **obsidian-git** - Git version control integration (automated commits)
 - **obsidian-excalidraw-plugin** - Drawing and diagrams
 - **templater-obsidian** - Advanced templating
 - **pdf-plus** - Enhanced PDF handling
 - **oz-clear-unused-images** - Cleanup unused media
 - **background-image** - Customization
+- **obsidian-shellcommands** - Execute shell commands from Obsidian
+- **obsidian-reminder-plugin** - Reminder and task management
+
+## Script Architecture
+
+### organized-vault.py Key Functions
+- `setup_logging()` - Configures dual logging (file + optional console) with UTF-8 support for Windows (lines 56-93)
+- `find_tags_in_file()` - Extracts tags from both inline format and YAML frontmatter with error handling (lines 101-137)
+- `should_skip_folder()` - Determines if a folder should be excluded from organization (lines 169-195)
+- `move_file()` - Handles file movement with duplicate name resolution and detailed logging (lines 140-166)
+- `organize_vault()` - Main orchestrator that walks the vault and applies organization rules with comprehensive error handling (lines 198-339)
+- `main()` - CLI entry point with argparse for --dry-run, --silent, --interactive modes (lines 342-414)
+
+### anki.py Key Functions
+- `invoke_anki_connect()` - Low-level API wrapper for AnkiConnect requests (lines 31-56)
+- `parse_card_from_template()` - Extracts Front:/Back: content from markdown files (lines 236-272)
+- `extract_note_id()` - Generates or extracts unique ID from YAML or file path hash (lines 217-233)
+- `process_images()` - Converts Obsidian image links to Anki format and uploads media (lines 102-147)
+- `clean_markdown()` - Converts markdown formatting to HTML for Anki display (lines 150-214)
+- `find_note_by_id()` - Searches Anki for existing notes by custom ID tag (lines 275-286)
+- `sync_or_update_note()` - Smart sync logic that updates existing cards or creates new ones (lines 343-368)
+
+**AnkiConnect API**: The script communicates with Anki via HTTP requests to `http://localhost:8765`. Key API calls include `addNote`, `updateNoteFields`, `findNotes`, and `storeMediaFile`.
 
 ## Templates
 
-**anki.md** - Basic Anki flashcard template with Front/Back structure
+Located in [templates/](templates/) folder:
+- **anki-template.md** - Basic Anki flashcard template with Front:/Back: structure for creating new cards
 
 ## Development Workflow
 
