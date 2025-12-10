@@ -1,5 +1,9 @@
 ## Income
-- Salary: $8,994.54
+- Salary: $8,994.54 MXM
+
+
+
+- **Total: $8,994.54 MXM**
 
 ## Fixed expenses
 
@@ -11,7 +15,10 @@
 - Vero ♥️:  $150 MXM
 - Copel 🔰: $240 MXM
 
-- **Total: $8,822.98 MXM**
+
+
+
+- **Total: $8,514.00 MXM**
 
 ## Active Debts
 - Danny OFS: $1,920 MXM
@@ -19,6 +26,9 @@
 - Reyes Magos: $1,000 MXM
 - Vero: $800
 
-- **Total: $3,220 MXM**
 
 
+
+
+
+- **Total: $3,970.00 MXM**

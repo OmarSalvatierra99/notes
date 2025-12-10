@@ -78,6 +78,19 @@ python scripts/organized-vault.py --interactive
 - Logs all operations to `scripts/logs/organization_TIMESTAMP.log`
 - Skips `.obsidian/`, `.git/`, `scripts/`, `templates/`, and files already in organized folders
 
+### Calculate Budget Totals
+
+```bash
+python scripts/budget-calculator.py
+```
+
+**What it does:**
+- Scans Budget.md for sections (## headers)
+- Extracts numeric values from all bullet points
+- Calculates and updates totals automatically
+- Preserves all formatting and emojis
+- Outputs formatted totals: `- **Total: $X,XXX.XX MXM**`
+
 ### Sync Notes to Anki
 
 ```bash
@@ -150,6 +163,12 @@ Your answer or explanation here
 - `move_file()` - Handles file movement with duplicate resolution
 - `organize_vault()` - Main orchestrator that walks vault and applies rules
 - `main()` - CLI entry point with argparse for modes
+
+**budget-calculator.py** (173 lines):
+- `extract_amount()` - Extracts numeric values from lines with regex pattern matching
+- `format_amount()` - Formats numbers as `$X,XXX.XX` with comma separators
+- `calculate_budget_totals()` - Parses sections, sums amounts, regenerates totals
+- `main()` - Entry point with UTF-8 console support and change detection
 
 **anki.py** (509 lines):
 - `invoke_anki_connect()` - AnkiConnect API wrapper

@@ -44,6 +44,44 @@ All operations are logged to `scripts/logs/` with:
 - INFO level summaries (files moved, errors encountered)
 - Full error tracebacks for troubleshooting
 
+## budget-calculator.py
+
+Automatically calculates and updates totals in Budget.md.
+
+### Usage
+
+```bash
+python scripts/budget-calculator.py
+```
+
+### Features
+
+- **Automatic calculation** of totals for each budget section
+- **Safe updates** - only modifies Total lines, preserves all other content
+- **Number extraction** from any format: `$1,234.56` or `$1234` or `$1,234.56 MXM`
+- **Formatted output** - totals always display as `$X,XXX.XX MXM`
+- **UTF-8 console support** for Windows emoji display
+- **No configuration needed** - automatically detects vault path
+
+### How It Works
+
+The script scans Budget.md for sections (## headers) and:
+1. Extracts numeric values from all bullet points in each section
+2. Sums the values
+3. Updates or adds the `- **Total: $X,XXX.XX MXM**` line
+4. Preserves all emojis and formatting in item lines
+
+### Example
+
+```markdown
+## Fixed expenses
+- Said 🐻♥️: $3,000 MXM
+- Food and transport 🚌: $1,500 MXM
+- Motorcycle 🏍️: $1,132 MXM
+
+- **Total: $5,632.00 MXM**  ← Automatically calculated
+```
+
 ## anki.py
 
 Syncs markdown flashcards to Anki via AnkiConnect API.
@@ -86,6 +124,11 @@ python {{vault_path}}/scripts/organized-vault.py --silent
 **Organize vault with preview:**
 ```bash
 python {{vault_path}}/scripts/organized-vault.py --dry-run
+```
+
+**Calculate budget totals:**
+```bash
+python {{vault_path}}/scripts/budget-calculator.py
 ```
 
 **Sync to Anki:**

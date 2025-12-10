@@ -1,9 +1,10 @@
 {
   "pinned": [
-    "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab",
-    "editor:insert-codeblock",
-    "oz-clear-unused-images:clear-images-obsidian",
+    "obsidian-shellcommands:shell-command-tqzif81cy9",
     "obsidian-shellcommands:shell-command-4aeva9oixq",
-    "obsidian-shellcommands:shell-command-tqzif81cy9"
+    "obsidian-shellcommands:shell-command-03qbr2ecw7",
+    "editor:insert-codeblock",
+    "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab",
+    "oz-clear-unused-images:clear-images-obsidian"
   ]
 }
