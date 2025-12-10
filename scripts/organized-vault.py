@@ -251,6 +251,12 @@ def organize_vault(vault_path: Path, dry_run: bool = False, silent: bool = False
                     stats['skipped'] += 1
                     continue
 
+                # Skip CLAUDE.md files (documentation for Claude Code)
+                if file == 'CLAUDE.md':
+                    stats['skipped'] += 1
+                    logger.debug(f"Skipping CLAUDE.md at: {root_path.relative_to(vault_path)}")
+                    continue
+
                 file_path = root_path / file
                 file_ext = file_path.suffix.lower()
 

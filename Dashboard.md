@@ -1,1 +1,21 @@
-I am building a productivity dashboard inside my Obsidian vault using the Dataview plugin. I want to connect my notes in the folders and track their progress using the tags `#working` and `#completed`. I want to do it super minimalist just a list like and inbox just #working and a unarchive list from #completed just for references
+## Inbox / Active Work
+
+```dataview
+LIST
+FROM #working
+SORT file.mtime DESC
+```
+
+## Archive / Completed
+
+```dataview
+LIST
+FROM #completed
+SORT file.mtime DESC
+```
+
+---
+
+**Workflow:**
+- Tag notes with `#working` when actively working on them
+- Tag notes with `#completed` when finished (for reference)
