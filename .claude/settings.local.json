@@ -3,7 +3,8 @@
     "allow": [
       "Bash(find:*)",
       "Bash(python scripts/organized-vault.py:*)",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(gh pr list:*)"
     ]
   }
 }

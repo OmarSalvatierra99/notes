@@ -1,4 +1,4 @@
-#ideas 
+#ideas #working 
 
 **Goal:** Create a system that work naturally with my projects and consistently improves note logic.
 

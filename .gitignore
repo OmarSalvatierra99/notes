@@ -23,6 +23,8 @@ desktop.ini
 __pycache__/
 *.pyc
 scripts/__pycache__/
+scripts/*.pyc
+scripts/logs/*
 
 # Media exports or temp files
 media/tmp/

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "developer/Scan ever app.py.md",
+                "file": "Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scan ever app.py"
+              "title": "Dashboard"
             }
           }
         ]
@@ -213,6 +213,12 @@
   },
   "active": "c2ab81d76bd72e46",
   "lastOpenFiles": [
+    "Budget.md",
+    "templates/anki-template.md",
+    "scripts/README.md",
+    "scripts/anki.md",
+    "scripts/organized-vault.md",
+    "developer/Scan ever app.py.md",
     "developer/INE Studio.md",
     "developer/How to see only services that contain ports.md",
     "developer/CLAUDE.md",
@@ -221,7 +227,7 @@
     "brain/Empathy and understanding how we connect whit another person's feelings.md",
     "brain/Command pallet in obsidian.md",
     "art/Skull of a skeleton with burning cigarette.md",
-    "Budget.md",
+    "Dashboard.md",
     "How to see only services that contain ports.md",
     "projects",
     "anki",
@@ -229,11 +235,8 @@
     "scripts/logs/organization_20251210_114208.log",
     "scripts/logs",
     "REFACTORING-PLAN.md",
-    "scripts/organized-vault.md",
-    "scripts/anki.md",
     "scripts/validate-refactoring.py.tmp.16224.1765388367086",
     "IMPLEMENTATION-GUIDE.md",
-    "Dashboard.md",
     "SYSTEM-SUMMARY.md",
     "Workflow-Guide.md",
     "scripts/validate-refactoring.py",
@@ -244,12 +247,8 @@
     "scripts/migrate-notes.py",
     "templates/project-template.md",
     "templates/idea-template.md",
-    "templates/anki-template.md",
-    "scripts/README.md",
     "pdf/AdministraciónPública_Calidad pública visión estratégica.pdf",
     "media/Pasted image 20251209141653.png",
-    "diary/2025-12-10.md",
-    "diary/2025-12-09.md",
     "media/Pasted image 20251209121721.png",
     "media/Pasted image 20251209125006.png",
     "media/Pasted image 20251119171024.png"
