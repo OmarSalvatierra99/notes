@@ -28,7 +28,8 @@ FOLDERS = {
     'art': 'art',
     'brain': 'brain',
     'auditoria': 'auditoria-gubernamental',
-    'anki': 'anki'
+    'anki': 'anki',
+    'projects': 'projects'
 }
 
 # Image extensions
@@ -40,7 +41,8 @@ TAG_FOLDER_MAP = {
     '#art': 'art',
     '#ideas': 'brain',
     '#auditoria': 'auditoria',
-    '#anki': 'anki'
+    '#anki': 'anki',
+    '#projects': 'projects'
 }
 
 # Folders to skip during organization

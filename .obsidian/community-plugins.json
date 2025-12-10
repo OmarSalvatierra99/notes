@@ -5,5 +5,6 @@
   "background-image",
   "pdf-plus",
   "templater-obsidian",
-  "obsidian-shellcommands"
+  "obsidian-shellcommands",
+  "obsidian-reminder-plugin"
 ]
