@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2ab81d76bd72e46",
+            "id": "e4eed5c4b6c1eacd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "Budget.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "Budget"
             }
           }
         ]
@@ -184,41 +184,103 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "11d74c68611bdfa6",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
+          },
+          {
+            "id": "a51999cef0aec45c",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
+          },
+          {
+            "id": "9071899afadffd3b",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
+          },
+          {
+            "id": "f4b33fb4b21cac3d",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
+          },
+          {
+            "id": "97398fc7b857376e",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "templater-obsidian:Templater": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "72212b0fbc96c87d",
+  "active": "e4eed5c4b6c1eacd",
   "lastOpenFiles": [
-    "Untitled.base",
+    "developer/SASP.md",
+    "Dashboard.md",
+    "Gym Rutine.md",
+    "art/Skull of a skeleton with burning cigarette.md",
+    "SASP.md",
+    "scripts/logs/organization_20251212_130000.log",
     "CLAUDE.md",
-    "Untitled.canvas",
     "Budget.md",
+    "art/Vincent van Gogh.md",
+    "art/Vincent van Gogh and Bukowski.md",
+    "developer/React.md",
+    "projects",
+    "scripts/logs/organization_20251211_143504.log",
+    "React.md",
+    "Vincent van Gogh and Bukowski.md",
+    "Vincent van Gogh.md",
+    "diary/2025-12-11.md",
+    "diary/2025-12-10.md",
+    "pdf/AdministraciónPública_Calidad pública visión estratégica.pdf",
+    "Untitled.base",
+    "Untitled.canvas",
     "brain/Improving Note Logic and Organization for government auditing pdf.md",
     "scripts/budget-calculator.py",
-    "Dashboard.md",
     "scripts/README.md",
     "templates/workflow-guide.md",
     "templates/anki-template.md",
@@ -229,25 +291,10 @@
     "developer/How to see only services that contain ports.md",
     "developer/CLAUDE.md",
     "developer/Chaniging the App Port Flask - FastAPI.md",
-    "brain/Empathy and understanding how we connect whit another person's feelings.md",
-    "brain/Command pallet in obsidian.md",
-    "art/Skull of a skeleton with burning cigarette.md",
-    "How to see only services that contain ports.md",
-    "projects",
     "anki",
     "auditoria-gubernamental",
     "scripts/logs/organization_20251210_114208.log",
     "scripts/logs",
-    "REFACTORING-PLAN.md",
-    "scripts/validate-refactoring.py.tmp.16224.1765388367086",
-    "IMPLEMENTATION-GUIDE.md",
-    "SYSTEM-SUMMARY.md",
-    "Workflow-Guide.md",
-    "scripts/validate-refactoring.py",
-    "REFACTORING-SUMMARY.md",
-    "REFACTORING-SUMMARY.md.tmp.7224.1765388006895",
-    "templates/unified-project-template.md",
-    "templates/unified-idea-template.md",
     "media/Pasted image 20251209141653.png",
     "media/Pasted image 20251209121721.png",
     "media/Pasted image 20251209125006.png",

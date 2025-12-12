@@ -3,8 +3,8 @@
   "oz-clear-unused-images",
   "obsidian-git",
   "background-image",
-  "pdf-plus",
   "templater-obsidian",
   "obsidian-shellcommands",
-  "obsidian-reminder-plugin"
+  "obsidian-reminder-plugin",
+  "dataview"
 ]
